@@ -1,0 +1,71 @@
+.loader{
+  .loader-inner {
+    .image-box {
+      position: absolute;
+      transform-origin: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &.image-0 {
+        width: 300px;
+        left: 16%;
+        bottom: 14%;
+        @media (max-width: $layout-breakpoint-xsmall) {
+          left: 4%;
+          bottom: 28%;
+        }
+      }
+      &.image-1 {
+        width: 250px;
+        right: 12%;
+        top: 8%;
+        @media (max-width: $layout-breakpoint-xsmall) {
+          top: 16%;
+          right: 4%;
+        }
+      }
+      &.image-2 {
+        max-width: 400px;
+        width: 40%;
+        right: 30%;
+        bottom: 10%;
+        @media (max-width: $layout-breakpoint-xsmall) {
+          right: 6%;
+          bottom: 32%;
+        }
+      }
+      &.image-3 {
+        width: 280px;
+        left: 5%;
+        top: 12%;
+        z-index: 1;
+        @media (max-width: $layout-breakpoint-xsmall) {
+          left: 6%;
+          top: 18%;
+        }
+      }
+      &.image-4 {
+        width: 280px;
+        left: 37%;
+        top: 20%;
+        @media (max-width: $layout-breakpoint-xsmall) {
+          left: 15%;
+          top: 50%;
+        }
+      }
+      &.image-5 {
+        width: 350px;
+        left: 80%;
+        top: 38%;
+        @media (max-width: $layout-breakpoint-xsmall) {
+          left: 15%;
+          top: 50%;
+        }
+      }
+      img {
+        width: 100%;
+        object-fit: fill;
+      }
+    }
+  }
+}

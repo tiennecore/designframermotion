@@ -1,0 +1,9 @@
+body{
+  background: #CAB4A7;
+
+  &.loading {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
+
