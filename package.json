@@ -2,7 +2,7 @@
   "name": "framer_motion_tuto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tiennecore.github.io/framerMotionDesign",
+  "homepage": "https://tiennecore.github.io/designframermotion",
   "dependencies": {
     "framer-motion": "^6.2.4",
     "gh-pages": "^3.2.3",
