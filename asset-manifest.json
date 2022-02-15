@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/framerMotionDesign/static/css/main.afb11848.css",
-    "main.js": "/framerMotionDesign/static/js/main.8dfcbe13.js",
-    "index.html": "/framerMotionDesign/index.html",
-    "main.afb11848.css.map": "/framerMotionDesign/static/css/main.afb11848.css.map",
-    "main.8dfcbe13.js.map": "/framerMotionDesign/static/js/main.8dfcbe13.js.map"
+    "main.css": "/designframermotion/static/css/main.afb11848.css",
+    "main.js": "/designframermotion/static/js/main.8dfcbe13.js",
+    "index.html": "/designframermotion/index.html",
+    "main.afb11848.css.map": "/designframermotion/static/css/main.afb11848.css.map",
+    "main.8dfcbe13.js.map": "/designframermotion/static/js/main.8dfcbe13.js.map"
   },
   "entrypoints": [
     "static/css/main.afb11848.css",
