@@ -40,20 +40,9 @@
       @media (max-width: $layout-breakpoint-medium) {
         width: 70%;
       }
-      @media (max-width: 1240px) {
-        &:last-child {
-          display: none;
-        }
-      }
       @media (max-width: $layout-breakpoint-xsmall) {
         width: 100%;
         justify-content: flex-start;
-      }
-      .row-message {
-        font-weight: 500;
-        font-size: 1.8rem;
-        line-height: 2.6rem;
-        width: 320px;
       }
     }
     .scroll {

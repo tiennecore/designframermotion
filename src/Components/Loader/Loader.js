@@ -1,5 +1,4 @@
 import {motion} from "framer-motion";
-import {useState, useEffect} from "react";
 import Images from "./Images";
 //Variants
 const container = {
@@ -14,6 +13,7 @@ const Loader = ({setLoading}) => {
     return (
         <div className="loader">
             <motion.div
+                layout
                 className="loader-inner"
                 variants={container}
                 initial='hidden'

@@ -1,6 +1,6 @@
 body{
   background: #CAB4A7;
-
+  overflow-x:hidden;
   &.loading {
     overflow: hidden;
     height: 100vh;

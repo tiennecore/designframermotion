@@ -1,5 +1,4 @@
 
-import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const banner = {
@@ -23,18 +22,12 @@ const letterAni = {
 };
 
 const Banner = () => {
-    const [playMarquee, setPlayMarquee] = useState(false);
 
-    useEffect(() => {
-        setTimeout(() => {
-            setPlayMarquee(true);
-        }, 2000);
-    }, []);
     return (
         <motion.div className='banner' variants={banner}>
             <BannerRowTop title={"brand"} />
-            <BannerRowCenter title={"experience"} playMarquee={playMarquee} />
-            <BannerRowBottom title={"studio"} />
+            <BannerRowCenter title={"experience"}/>
+            <BannerRowBottom title={"smooth"}/>
         </motion.div>
     );
 };

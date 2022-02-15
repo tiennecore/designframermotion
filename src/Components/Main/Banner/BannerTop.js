@@ -7,7 +7,6 @@ const BannerTop = ({title}) => {
             <div className="row-col">
                 <LetterAnimated title={title}/>
             </div>
-            
         </div>
     );
 };

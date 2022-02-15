@@ -20,7 +20,7 @@ const item = {
         y:200,
         transition:{
             ease: "easeInOut",
-            duration:2
+            duration:.8
         }
     },
 }
@@ -30,6 +30,7 @@ function Images() {
         Links.map((image,index) => {
             if(index+1 <=6 ){
                 return <motion.div
+                    layout
                     key={index}
                     className={`image-box image-${index}`}
                     variants={item}
